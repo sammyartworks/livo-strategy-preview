@@ -1,0 +1,1010 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>LIVO × Moshe Agency · Стратегия 2026</title>
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --lav:#9C8FDA;--lav-d:#7C6EC4;--lav-s:#F3F0FF;--lav-m:#E4DEFF;
+  --ink:#16121F;--violet:#231C35;--violet-2:#2E2545;--mid:#5D5870;--line:#E7E3F2;
+  --sun:#F4D56B;--paper:#fff;--bg:#FBFAFF;--ok:#3FB37F;--bad:#E0656B;
+  --r:20px;--r-s:12px;--sh:0 10px 40px rgba(35,28,53,.08);
+  --f:'Wix Madefor Display',Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{font-family:var(--f);color:var(--ink);background:var(--bg);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+h1,h2,h3{line-height:1.12;letter-spacing:-.02em;font-weight:800}
+h1{font-size:clamp(40px,6.4vw,76px)}
+h2{font-size:clamp(30px,4.2vw,50px)}
+h3{font-size:20px;font-weight:700;letter-spacing:-.01em}
+p{color:var(--mid)}
+.eb{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--lav-d)}
+.eb:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--lav)}
+.lead{font-size:clamp(18px,1.8vw,21px);max-width:760px;margin-top:18px}
+.mt{margin-top:48px}.mt-s{margin-top:24px}
+/* nav */
+.nav{position:sticky;top:0;z-index:50;background:rgba(251,250,255,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;gap:20px;height:68px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;white-space:nowrap;text-decoration:none}
+.brand img{height:22px}
+.brand span{color:var(--mid);font-weight:500}
+.links{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;flex:1;mask-image:linear-gradient(90deg,#000 90%,transparent)}
+.links::-webkit-scrollbar{display:none}
+.links a{white-space:nowrap;text-decoration:none;font-size:14px;font-weight:600;color:var(--mid);padding:8px 12px;border-radius:99px;transition:.2s}
+.links a:hover,.links a.on{background:var(--lav-s);color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--lav);color:#fff;text-decoration:none;font-weight:700;font-size:15px;padding:12px 22px;border-radius:44px;box-shadow:0 4px 14px rgba(124,110,196,.35);white-space:nowrap;transition:.2s}
+.btn:hover{background:var(--lav-d)}
+.btn.ghost{background:transparent;color:var(--ink);box-shadow:none;border:1.5px solid var(--line)}
+.prog{position:absolute;left:0;bottom:-1px;height:2px;background:var(--lav);width:0}
+/* hero */
+.hero{padding:80px 0 40px;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:-30% -10% auto auto;width:780px;height:780px;background:radial-gradient(circle,var(--lav-m),transparent 65%);z-index:-1}
+.hero-g{display:grid;grid-template-columns:1.25fr .75fr;gap:48px;align-items:center}
+.hero h1 em{font-style:normal;color:var(--lav-d)}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.phone{position:relative;justify-self:center;width:min(300px,80vw)}
+.phone img{border-radius:38px;border:10px solid var(--violet);box-shadow:0 40px 80px rgba(35,28,53,.28)}
+.phone .chip{position:absolute;background:#fff;border-radius:16px;padding:12px 16px;box-shadow:var(--sh);font-size:14px;font-weight:700;display:flex;gap:10px;align-items:center}
+.phone .chip small{display:block;font-weight:500;color:var(--mid);font-size:12px}
+.phone .c1{left:-70px;top:22%}.phone .c2{right:-60px;bottom:18%}
+.dot{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:var(--lav-s);color:var(--lav-d)}
+.ic{display:block;flex:none}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:64px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px 24px}
+.stat b{display:block;font-size:clamp(28px,3vw,38px);font-weight:800;letter-spacing:-.02em}
+.stat span{font-size:14px;color:var(--mid)}
+/* sections */
+section.s{padding:96px 0;border-top:1px solid var(--line)}
+section.dark{background:var(--violet);color:#fff;border:0}
+section.dark p{color:#C9C3DD}
+section.dark .eb{color:var(--sun)}section.dark .eb:before{background:var(--sun)}
+section.soft{background:var(--lav-s);border:0}
+.head{max-width:820px}
+.grid{display:grid;gap:18px}
+.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px;position:relative}
+.card h3{margin-bottom:10px}
+.card p{font-size:16px}
+.card .n{font-size:13px;font-weight:800;color:var(--lav-d);letter-spacing:.06em;margin-bottom:14px;display:block}
+.dark .card{background:var(--violet-2);border-color:#3A3055}
+.dark .card h3{color:#fff}
+.tag{display:inline-block;font-size:12px;font-weight:700;padding:4px 10px;border-radius:99px;background:var(--lav-s);color:var(--lav-d);margin:0 6px 6px 0}
+.tag.y{background:#FFF6D6;color:#8A6A00}.tag.r{background:#FDE8E9;color:#B03A41}.tag.g{background:#E3F6EC;color:#1F7A50}
+ul.l{list-style:none;margin-top:12px}
+ul.l li{position:relative;padding-left:22px;margin:7px 0;font-size:16px;color:var(--mid)}
+ul.l li:before{content:"";position:absolute;left:2px;top:.62em;width:8px;height:8px;border-radius:3px;background:var(--lav)}
+.dark ul.l li{color:#C9C3DD}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+/* audit */
+.kpi{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px}
+.kpi .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.kpi h3{font-size:18px}
+.row{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px dashed var(--line);font-size:15px}
+.row:last-child{border:0}
+.row span{color:var(--mid)}.row b{font-weight:700}
+.big{font-size:44px;font-weight:800;letter-spacing:-.03em;line-height:1}
+.insight{background:var(--violet);color:#fff;border-radius:var(--r);padding:34px;display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:center}
+.insight .big{color:var(--sun)}
+.insight p{color:#C9C3DD;font-size:17px}
+/* personas */
+.persona{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+.persona .ph{padding:26px 26px 18px;background:linear-gradient(135deg,var(--lav-s),#fff)}
+.persona .role{font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--lav-d)}
+.persona h3{font-size:22px;margin:6px 0 4px}
+.persona .bd{padding:6px 26px 26px;font-size:15px}
+.persona dt{font-size:12px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--ink);margin-top:14px}
+.persona dd{color:var(--mid);margin-top:3px}
+.persona .q{margin:14px 0 0;padding:14px 16px;border-radius:var(--r-s);background:var(--lav-s);font-weight:700;color:var(--ink);font-size:15px}
+.roles{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:40px}
+.roles div{border-radius:var(--r);padding:22px;background:#fff;border:1px solid var(--line)}
+.roles b{font-size:15px}
+/* compare */
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);font-size:15px}
+th,td{text-align:left;padding:14px 18px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mid);background:var(--lav-s)}
+tr.me td{background:#FBF9FF;font-weight:700}
+.tw{overflow-x:auto;border-radius:var(--r)}
+/* risks */
+.risk{display:grid;grid-template-columns:56px 1fr;gap:18px;padding:26px 0;border-bottom:1px solid #3A3055}
+.risk:last-child{border:0}
+.risk .i{width:56px;height:56px;border-radius:16px;background:var(--violet-2);display:grid;place-items:center;font-weight:800;color:var(--sun);font-size:18px}
+.risk h3{color:#fff;margin-bottom:6px}
+.risk .fix{margin-top:10px;font-size:15px;color:#fff}
+.risk .fix b{color:var(--sun)}
+/* funnel */
+.funnel{display:grid;gap:10px;margin-top:44px}
+.fs{display:grid;grid-template-columns:200px 1fr 260px;gap:24px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:20px 24px}
+.fs .bar{height:14px;border-radius:99px;background:linear-gradient(90deg,var(--lav),var(--lav-m))}
+.fs h3{font-size:18px}
+.fs p{font-size:15px}
+.fs .k{font-size:13px;font-weight:700;color:var(--lav-d)}
+/* storyboards */
+.sbset{margin-top:56px}
+.sbh{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:18px}
+.sbh h3{font-size:26px}
+.frames{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.frame{background:#fff;border-radius:var(--r-s);overflow:hidden;border:1px solid var(--line)}
+.dark .frame{background:var(--violet-2);border-color:#3A3055}
+.frame img{aspect-ratio:9/16;object-fit:cover;width:100%}
+.frame figcaption{padding:12px 14px;font-size:13.5px;line-height:1.45;color:var(--mid)}
+.dark .frame figcaption{color:#C9C3DD}
+.frame figcaption b{display:block;color:var(--lav-d);font-size:12px;letter-spacing:.04em;margin-bottom:3px}
+.dark .frame figcaption b{color:var(--sun)}
+.endcard{margin-top:14px;padding:18px 22px;border-radius:var(--r-s);background:var(--lav);color:#fff;font-weight:700;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.endcard small{font-weight:500;opacity:.85}
+.why{margin-top:12px;font-size:15px}
+/* timeline */
+.tl{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}
+.tl .card{border-top:4px solid var(--lav)}
+.tl .m{font-size:13px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--lav-d)}
+.tl h3{font-size:24px;margin:6px 0 4px}
+/* kpi tiles */
+.north{background:linear-gradient(135deg,var(--violet),#3B2F5E);color:#fff;border-radius:var(--r);padding:40px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center}
+.north h3{font-size:30px;color:#fff}
+.north p{color:#C9C3DD}
+.north .big{color:var(--sun);font-size:64px}
+.mini{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
+.mini div{background:#fff;border:1px solid var(--line);border-radius:var(--r-s);padding:18px}
+.mini b{display:block;font-size:15px}
+.mini span{font-size:13.5px;color:var(--mid)}
+/* end */
+.end{padding:120px 0;text-align:center;background:var(--violet);color:#fff}
+.end h2{font-size:clamp(34px,5vw,64px)}
+.end p{color:#C9C3DD;margin:18px auto 0;max-width:640px}
+.end img{height:34px;margin:0 auto 28px;filter:none}
+footer{background:var(--ink);color:#8F89A6;font-size:13px;padding:24px 0;text-align:center}
+.note{font-size:13px;color:var(--mid);margin-top:16px}
+.dark .note{color:#9A93B3}
+/* visuals */
+.media{border-radius:var(--r);overflow:hidden;position:relative;background:var(--lav-s)}
+.media img{width:100%;height:100%;object-fit:cover}
+.media.wide{aspect-ratio:21/9;margin-top:44px}
+.media .cap{position:absolute;left:16px;bottom:16px;background:rgba(22,18,31,.72);color:#fff;font-size:13px;font-weight:600;padding:8px 12px;border-radius:10px;backdrop-filter:blur(6px)}
+.persona .pimg{aspect-ratio:4/3;overflow:hidden}
+.persona .pimg img{width:100%;height:100%;object-fit:cover}
+.split .media{aspect-ratio:4/3}
+/* infographics */
+.ig{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px}
+.dark .ig{background:var(--violet-2);border-color:#3A3055}
+.ig h3{font-size:18px;margin-bottom:4px}
+.ig .sub{font-size:14px;color:var(--mid);margin-bottom:20px}
+.dark .ig .sub{color:#9A93B3}
+.hb{display:grid;grid-template-columns:150px 1fr 70px;gap:12px;align-items:center;margin:10px 0;font-size:14px}
+.hb .tr{height:22px;background:var(--lav-s);border-radius:6px;position:relative}
+.hb .fl{height:100%;background:var(--lav);border-radius:0 4px 4px 0;position:relative}
+.hb .fl:hover{background:var(--lav-d)}
+.hb b{text-align:right}
+.hb.hi .fl{background:var(--bad)}
+[data-tip]{cursor:default}
+#tip{position:fixed;z-index:99;pointer-events:none;background:var(--ink);color:#fff;font-size:13px;line-height:1.4;padding:8px 11px;border-radius:8px;max-width:260px;opacity:0;transition:opacity .12s;box-shadow:0 8px 24px rgba(0,0,0,.2)}
+.dots{display:grid;grid-template-columns:repeat(21,1fr);gap:5px;max-width:420px}
+.insight .dots{width:300px;gap:4px}
+.insight .dots i{background:#5A4E7C}
+.dots i{aspect-ratio:1;border-radius:50%;background:#4A3F68}
+.dots i.on{background:var(--sun);box-shadow:0 0 0 3px rgba(244,213,107,.3)}
+.flow{display:flex;align-items:stretch;gap:0;margin-top:40px;flex-wrap:wrap}
+.flow .st{flex:1;min-width:150px;background:#fff;border:1px solid var(--line);border-radius:var(--r-s);padding:18px;position:relative;margin-right:28px}
+.flow .st:last-child{margin-right:0;background:var(--lav);color:#fff;border:0}
+.flow .st:last-child p{color:#fff;opacity:.9}
+.flow .st:not(:last-child):after{content:"→";position:absolute;right:-24px;top:50%;transform:translateY(-50%);font-weight:800;color:var(--lav-d);font-size:20px}
+.flow .ico{margin-bottom:10px;color:var(--lav-d);width:40px;height:40px;border-radius:11px;background:var(--lav-s);display:grid;place-items:center}
+.flow .st:last-child .ico{background:rgba(255,255,255,.2);color:#fff}
+.flow b{display:block;font-size:15px}
+.flow p{font-size:13.5px;margin-top:4px}
+.flow .who{font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--lav-d);margin-bottom:6px}
+.flow .st:last-child .who{color:#fff}
+.map{position:relative;aspect-ratio:16/10;background:linear-gradient(var(--line),var(--line)) 50% 0/1px 100% no-repeat,linear-gradient(var(--line),var(--line)) 0 50%/100% 1px no-repeat,#fff;border:1px solid var(--line);border-radius:var(--r)}
+.map .ax{position:absolute;font-size:12px;font-weight:700;color:var(--mid);letter-spacing:.04em;text-transform:uppercase}
+.map .pt{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:6px;font-size:13px;font-weight:700;white-space:nowrap}
+.map .pt i{width:16px;height:16px;border-radius:50%;background:var(--mid);border:3px solid #fff;box-shadow:0 0 0 1px var(--line)}
+.map .pt.me i{width:26px;height:26px;background:var(--lav);box-shadow:0 0 0 6px rgba(156,143,218,.25)}
+.map .pt.me{color:var(--lav-d);font-size:15px}
+.ring{display:grid;grid-template-columns:1fr;gap:18px;justify-items:center;text-align:center}
+.ring svg{width:170px;height:170px}
+.funnel2{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;margin-top:44px}
+.fn{display:flex;flex-direction:column;align-items:center;gap:6px}
+.fn div{height:62px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:15px;clip-path:polygon(0 0,100% 0,94% 100%,6% 100%);text-align:center;padding:0 10%}
+.matrix{width:100%;border-collapse:separate;border-spacing:0;font-size:14px}
+.matrix th{background:transparent;text-transform:none;letter-spacing:0;font-size:13px;color:var(--mid);text-align:center;border:0;padding:8px}
+.matrix th:first-child{text-align:left}
+.matrix td{border-bottom:1px solid var(--line);text-align:center;padding:12px 8px}
+.matrix td:first-child{text-align:left;font-weight:700}
+.lv{display:inline-block;width:14px;height:14px;border-radius:50%;background:var(--lav-s);border:1.5px solid var(--lav)}
+.lv.m{background:var(--lav-m)}.lv.h{background:var(--lav)}
+.legend{display:flex;gap:18px;font-size:13px;color:var(--mid);margin-top:14px;flex-wrap:wrap}
+.legend span{display:inline-flex;gap:6px;align-items:center}
+.gantt{display:grid;grid-template-columns:200px repeat(12,1fr);gap:4px 3px;font-size:13px;margin-top:44px;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px;overflow-x:auto}
+.gantt .h{font-size:11px;color:var(--mid);text-align:center;font-weight:700}
+.gantt .mh{grid-column:span 4;font-size:12px;font-weight:800;letter-spacing:.06em;color:var(--lav-d);text-transform:uppercase;border-bottom:2px solid var(--lav-m);padding-bottom:4px;text-align:center}
+.gantt .n{font-weight:600;padding:5px 0;grid-column:1}
+.gantt .b{height:22px;align-self:center;border-radius:6px;background:var(--lav)}
+.gantt .b.s{background:var(--sun)}.gantt .b.d{background:var(--violet)}
+.tree{display:grid;grid-template-columns:1fr;gap:0;margin-top:18px}
+.tree .lvl{display:grid;gap:14px}
+.tree .l3{grid-template-columns:repeat(3,1fr);margin-top:28px;position:relative}
+.tree .l3:before{content:"";position:absolute;left:16.6%;right:16.6%;top:-14px;border-top:2px solid var(--lav-m)}
+.tree .node{background:#fff;border:1px solid var(--line);border-radius:var(--r-s);padding:16px;position:relative}
+.tree .l3 .node:before{content:"";position:absolute;left:50%;top:-15px;height:14px;border-left:2px solid var(--lav-m)}
+.tree .node b{display:block;font-size:15px}
+.tree .node span{font-size:13px;color:var(--mid)}
+.tree .node ul{list-style:none;margin-top:8px}
+.tree .node li{font-size:13px;color:var(--mid);padding:3px 0;border-top:1px dashed var(--line)}
+.icon{width:44px;height:44px;border-radius:12px;background:var(--lav-s);display:grid;place-items:center;color:var(--lav-d);margin-bottom:14px}
+.dark .icon{background:#3A3055}
+/* pricing */
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px;align-items:stretch}
+.plan{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:30px;display:flex;flex-direction:column;position:relative}
+.plan.rec{border:2px solid var(--lav);box-shadow:0 20px 50px rgba(124,110,196,.18)}
+.plan .badge{position:absolute;top:-13px;left:30px;background:var(--lav);color:#fff;font-size:12px;font-weight:800;letter-spacing:.05em;padding:5px 12px;border-radius:99px}
+.plan .lvl{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--lav-d)}
+.plan h3{font-size:26px;margin:6px 0 4px}
+.plan .for{font-size:14.5px;color:var(--mid);min-height:44px}
+.plan .price{font-size:46px;font-weight:800;letter-spacing:-.03em;margin:18px 0 0}
+.plan .price small{font-size:15px;font-weight:600;color:var(--mid);letter-spacing:0}
+.plan .delta{margin-top:10px;font-size:13.5px;font-weight:600;color:var(--lav-d);background:var(--lav-s);border-radius:10px;padding:10px 12px}
+.plan .grp{font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);margin-top:20px;padding-top:16px;border-top:1px dashed var(--line)}
+.plan ul{list-style:none;margin-top:8px}
+.plan li{font-size:14.5px;color:var(--mid);padding:5px 0 5px 24px;position:relative}
+.plan li:before{content:"✓";position:absolute;left:0;color:var(--lav-d);font-weight:800}
+.plan li.plus:before{content:"+"}
+.plan .btn{margin-top:auto;justify-content:center}
+.plan .sp{flex:1;min-height:22px}
+.terms{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px}
+.terms div{background:var(--lav-s);border-radius:var(--r-s);padding:16px;font-size:14px;color:var(--mid)}
+.terms b{display:block;color:var(--ink);font-size:15px;margin-bottom:3px}
+.steps{counter-reset:st;list-style:none;margin-top:12px}
+.steps li{counter-increment:st;position:relative;padding:8px 0 8px 40px;font-size:15px;color:var(--mid);border-bottom:1px dashed var(--line)}
+.steps li:before{content:counter(st);position:absolute;left:0;top:7px;width:26px;height:26px;border-radius:8px;background:var(--lav-s);color:var(--lav-d);font-weight:800;font-size:13px;display:grid;place-items:center}
+/* intro */
+#intro{position:fixed;inset:0;z-index:100;background:radial-gradient(circle at 85% 10%,#3B2F5E,transparent 55%),var(--violet);color:#fff;overflow-y:auto;transition:opacity .35s,visibility .35s}
+#intro.hide{opacity:0;visibility:hidden}
+body.locked{overflow:hidden}
+.in-wrap{max-width:1180px;margin:0 auto;padding:28px 24px 56px}
+.in-top{display:flex;align-items:center;gap:10px;margin-bottom:56px;color:#C9C3DD;font-weight:600}
+.in-logo{height:26px}
+.in-x{margin-left:auto;background:rgba(255,255,255,.08);border:0;color:#fff;width:42px;height:42px;border-radius:12px;display:grid;place-items:center;cursor:pointer}
+.in-x:hover{background:rgba(255,255,255,.16)}
+#intro .eb{color:var(--sun)}#intro .eb:before{background:var(--sun)}
+#intro h1{margin-top:16px;font-size:clamp(34px,5.4vw,64px)}
+#intro h1 em{font-style:normal;color:var(--lav)}
+.in-lead{color:#C9C3DD;font-size:19px;margin-top:14px}
+.in-list{display:grid;grid-template-columns:1fr 1fr;gap:0 40px;margin-top:40px;counter-reset:x}
+.it{display:grid;grid-template-columns:48px 1fr 28px;gap:14px;align-items:center;padding:16px 4px;border-bottom:1px solid #3A3055;text-decoration:none;color:#fff;transition:.2s}
+.it:hover{padding-left:12px;background:rgba(156,143,218,.08)}
+.it .no{font-size:14px;font-weight:800;color:var(--lav)}
+.it b{display:block;font-size:19px;font-weight:700}
+.it small{display:block;color:#9A93B3;font-size:14px;margin-top:2px}
+.it .ar{color:var(--lav);opacity:.5;transition:.2s}
+.it:hover .ar{opacity:1;transform:translateX(4px)}
+.in-all{margin-top:36px;background:var(--sun);color:var(--ink);border:0;cursor:pointer;font-family:inherit}
+.in-all:hover{background:#fff}
+.topics{cursor:pointer;font-family:inherit;background:#fff}
+.bento{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:230px;grid-auto-flow:dense;gap:14px;margin-top:36px}
+.tile{position:relative;border-radius:20px;overflow:hidden;text-decoration:none;color:#fff;background:#2E2545;animation:tin .6s cubic-bezier(.2,.8,.2,1) both;animation-delay:var(--d);transition:transform .45s cubic-bezier(.2,.8,.2,1),box-shadow .45s;isolation:isolate}
+.tile.w2{grid-column:span 2}.tile.big{grid-column:span 2;grid-row:span 2}
+.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.2,.8,.2,1),filter .5s;filter:saturate(.85) brightness(.8);z-index:-2}
+.tile:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(35,28,53,.05) 30%,rgba(35,28,53,.92));transition:background .4s}
+.tile:hover img{transform:scale(1.05);filter:saturate(1.05) brightness(.95)}
+.tile:hover:after{background:linear-gradient(180deg,rgba(124,110,196,.15) 10%,rgba(35,28,53,.95))}
+.tile:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(0,0,0,.35),inset 0 0 0 2px var(--lav)}
+.tno{position:absolute;top:14px;left:16px;font-size:13px;font-weight:800;letter-spacing:.06em;background:rgba(22,18,31,.55);backdrop-filter:blur(6px);padding:5px 10px;border-radius:99px}
+.tgo{position:absolute;top:12px;right:12px;width:36px;height:36px;border-radius:50%;background:#fff;color:var(--violet);display:grid;place-items:center;transform:scale(.6) rotate(-45deg);opacity:0;transition:.35s cubic-bezier(.2,.8,.2,1)}
+.tile:hover .tgo{transform:none;opacity:1}
+.tt{position:absolute;left:18px;right:18px;bottom:16px}
+.tt b{display:block;font-size:20px;font-weight:800;letter-spacing:-.01em;line-height:1.15}
+.big .tt b{font-size:30px}
+.tt small{display:block;font-size:14px;color:#D9D4EC;margin-top:5px;opacity:.75;transition:opacity .4s}
+.tile:hover .tt small{opacity:1}
+.tile.hl{background:var(--lav)}
+.tile.hl:after{background:linear-gradient(180deg,rgba(124,110,196,.2) 20%,rgba(92,78,170,.95))}
+.tile.hl .tno{background:var(--sun);color:var(--ink)}
+@keyframes tin{from{opacity:0;transform:translateY(24px) scale(.97)}to{opacity:1;transform:none}}
+.in-row{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+.in-stats{display:flex;gap:28px}
+.in-stats span{font-size:13px;color:#9A93B3}
+.in-stats b{display:block;font-size:30px;font-weight:800;color:#fff;letter-spacing:-.02em}
+.in-glow{position:fixed;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(156,143,218,.22),transparent 65%);pointer-events:none;transform:translate(-50%,-50%);z-index:0;transition:opacity .3s}
+.in-wrap{position:relative;z-index:1}
+@media(prefers-reduced-motion:reduce){.tile{animation:none}}
+@media(max-width:900px){.bento{grid-template-columns:repeat(2,1fr);grid-auto-rows:200px}.tile.big{grid-row:span 2}.tt b{font-size:17px}.big .tt b{font-size:24px}.tt small{opacity:1;margin-top:4px;font-size:12.5px}.tgo{opacity:1;transform:none;width:30px;height:30px}.in-stats{gap:18px}.in-stats b{font-size:24px}}
+@media(max-width:820px){.in-top{margin-bottom:36px}}
+/* responsive */
+@media(max-width:980px){
+  .hero-g,.split{grid-template-columns:1fr}
+  .g3,.g4,.stats,.mini{grid-template-columns:repeat(2,1fr)}
+  .frames{grid-template-columns:repeat(2,1fr)}
+  .tl,.roles{grid-template-columns:1fr}
+  .fs{grid-template-columns:1fr}
+  .phone .c1{left:-20px}.phone .c2{right:-20px}
+  .nav .btn:not(.topics){display:none}
+  .plans{grid-template-columns:1fr}.terms{grid-template-columns:repeat(2,1fr)}
+  .funnel2{grid-template-columns:1fr}
+  .flow .st{flex:1 1 40%;margin:0 0 14px}
+  .flow .st:after{display:none}
+  .tree .l3{grid-template-columns:1fr}
+  .tree .l3:before,.tree .l3 .node:before{display:none}
+}
+@media(max-width:620px){
+  .wrap{padding:0 16px}
+  h1{font-size:33px}
+  table{min-width:720px}
+  .flow .st{flex:1 1 100%}
+  .terms{grid-template-columns:1fr}
+  .hb{grid-template-columns:110px 1fr 56px;font-size:13px}
+  .map .pt{font-size:11px}.map .ax{font-size:10px}
+  
+  .gantt{grid-template-columns:150px repeat(12,32px)}
+  .media.wide{aspect-ratio:16/10}
+  .g2,.g3,.g4,.stats,.mini{grid-template-columns:1fr}
+  section.s{padding:68px 0}
+  .insight,.north{grid-template-columns:1fr}
+  .brand span{display:none}
+}
+</style>
+</head>
+<body>
+
+<div id="intro" role="dialog" aria-modal="true" aria-label="Съдържание">
+  <div class="in-glow" id="inGlow"></div><div class="in-wrap">
+    <div class="in-top"><img src="img/logo_white.svg" alt="LIVO" class="in-logo"><span>× Moshe Agency</span><button class="in-x" id="inClose" aria-label="Затвори"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>
+    <span class="eb">Маркетингова стратегия · вътрешен преглед · ноември 2026</span>
+    <h1>Не сменяй домоуправителя.<br><em>Смени системата.</em></h1>
+    <div class="in-row"><p class="in-lead">Избери тема или прочети цялата стратегия подред.</p><div class="in-stats"><span><b data-count="62000">0</b>домакинства</span><span><b>4,8</b>в Google Play</span><span><b>12</b>теми</span></div></div>
+    <nav class="bento"><a class="tile w2" href="#start" data-go="start" style="--d:0ms"><img src="img/v/start.jpg" alt="" loading="eager"><span class="tno">01</span><span class="tgo"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span><span class="tt"><b>Изходна точка</b><small>Какво има LIVO и какво му липсва</small></span></a><a class="tile w2" href="#audit" data-go="audit" style="--d:45ms"><img src="img/v/demo.jpg" alt="" loading="eager" style="object-position:50% 45%"><span class="tno">02</span><span class="tgo"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span><span class="tt"><b>Лятната кампания</b><small>83 започнати регистрации, 1 завършена</small></span></a><a class="tile w2" href="#audience" data-go="audience" style="--d:90ms"><img src="img/v/p_resident.jpg" alt="" loading="eager" style="object-position:55% 22%"><span class="tno">03</span><span class="tgo"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span><span class="tt"><b>За кого го правим</b><small>Четирите аудитории и защо</small></span></a><a class="tile w2" href="#market" data-go="market" style="--d:135ms"><img src="img/v/market.jpg" alt="" loading="eager"><span class="tno">04</span><span class="tgo"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span><span class="tt"><b>Пазарът</b><small>23 000 сгради само в София</small></span></a><a class="tile " href="#risks" data-go="risks" style="--d:180ms"><img src="img/v/board.jpg" alt="" loading="eager" style="object-position:45% 50%"><span class="tno">05</span><span class="tgo"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span><span class="tt"><b>Преди старта</b><small>Девет точки, които трябва да издържат</small></span></a><a class="tile " href="#message" data-go="message" style="--d:225ms"><img src="img/v/message.jpg" alt="" loading="eager" style="object-position:50% 40%"><span class="tno">06</span><span class="tgo"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span><span class="tt"><b>Посланието</b><small>Позициониране, тон и бранд</small></span></a><a class="tile big" href="#creative" data-go="creative" style="--d:270ms"><img src="img/sb/baba_1.jpg" alt="" loading="eager" style="object-position:40% 28%"><span class="tno">09</span><span class="tgo"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span><span class="tt"><b>Криейтив</b><small>Шест сценария, 24 кадъра сториборд</small></span></a><a class="tile " href="#funnel" data-go="funnel" style="--d:315ms"><img src="img/v/qr.jpg" alt="" loading="eager" style="object-position:50% 45%"><span class="tno">07</span><span class="tgo"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span><span class="tt"><b>Фунията</b><small>От интерес до активно домакинство</small></span></a><a class="tile " href="#channels" data-go="channels" style="--d:360ms"><img src="img/v/p_pro.jpg" alt="" loading="eager" style="object-position:70% 18%"><span class="tno">08</span><span class="tgo"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span><span class="tt"><b>Канали</b><small>Всеки канал и неговата роля</small></span></a><a class="tile " href="#ideas" data-go="ideas" style="--d:405ms"><img src="img/v/neighbors.jpg" alt="" loading="eager" style="object-position:55% 25%"><span class="tno">10</span><span class="tgo"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span><span class="tt"><b>Идеи за растеж</b><small>Механики извън рекламата</small></span></a><a class="tile " href="#plan" data-go="plan" style="--d:450ms"><img src="img/v/team.jpg" alt="" loading="eager" style="object-position:50% 35%"><span class="tno">11</span><span class="tgo"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span><span class="tt"><b>Първите 90 дни</b><small>План по седмици</small></span></a><a class="tile w2" href="#kpi" data-go="kpi" style="--d:495ms"><img src="img/v/p_neighbor.jpg" alt="" loading="eager" style="object-position:50% 12%"><span class="tno">12</span><span class="tgo"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span><span class="tt"><b>Как мерим</b><small>Главната цифра и помощните</small></span></a></nav>
+    <button class="btn in-all" id="inAll">Цялата стратегия <svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+  </div>
+</div>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="img/logo_black.svg" alt="LIVO"><span>× Moshe Agency</span></a>
+    <nav class="links" id="links">
+      <a href="#start">Изходна точка</a>
+      <a href="#audit">Лятната кампания</a>
+      <a href="#audience">За кого</a>
+      <a href="#market">Пазарът</a>
+      <a href="#risks">Преди старта</a>
+      <a href="#message">Посланието</a>
+      <a href="#funnel">Фунията</a>
+      <a href="#channels">Канали</a>
+      <a href="#creative">Криейтив</a>
+      <a href="#plan">90 дни</a>
+      <a href="#kpi">Как мерим</a>
+    </nav>
+    <button class="btn ghost topics" id="openTopics"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg> Теми</button><a class="btn" href="#plan">Плана</a>
+  </div>
+  <div class="prog" id="prog"></div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-g">
+      <div>
+        <span class="eb">Маркетингова стратегия · първите 90 дни · ноември 2026</span>
+        <h1 class="mt-s">Не сменяй домоуправителя.<br><em>Смени системата.</em></h1>
+        <p class="lead">LIVO вече има работещ продукт, доволни фирми и близо 62 000 домакинства. Следващата стъпка е повече хора сами да поискат LIVO в своя вход, а екипът да е готов да ги посрещне.</p>
+        <div class="cta">
+          <a class="btn" href="#audience">За кого го правим</a>
+          <a class="btn ghost" href="#creative">Виж сторибордовете</a>
+        </div>
+      </div>
+      <div class="phone">
+        <img src="img/app_1.jpg" alt="Началният екран на приложението LIVO">
+        <div class="chip c1"><span class="dot"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><div>Таксата е платена<small>с карта, от дивана</small></div></div>
+        <div class="chip c2"><span class="dot"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6M10 22h4"/></svg></span><div>Сигнал: 3 етаж<small>статус „В процес“</small></div></div>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>~62 000</b><span>домакинства в системата</span></div>
+      <div class="stat"><b>4,8 ★</b><span>от 2 100 оценки в Google Play</span></div>
+      <div class="stat"><b>750+</b><span>сгради само при „Топ Вход“</span></div>
+      <div class="stat"><b>0,61 €</b><span>на апартамент на месец за домоуправител-съсед</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- START -->
+<section class="s" id="start">
+  <div class="wrap">
+    <div class="head">
+      <span class="eb">Изходна точка</span>
+      <h2 class="mt-s">Продуктът е готов. Сега трябва търсене.</h2>
+      <p class="lead">LIVO е софтуер за управление на сгради, който се ползва от професионални домоуправители, комплекси, строители и съседи, поели входа. Фирмите го харесват, живущите го оценяват с 4,8. Липсва ни поток от нови сгради, който идва отвън, а не само от отдела по продажби.</p>
+    </div>
+    <div class="media wide"><img loading="lazy" src="img/v/start.jpg" alt="Вход на жилищна сграда в София вечер"><span class="cap">Всичко за входа, на едно място</span></div>
+    <div class="grid g2 mt">
+      <div class="card">
+        <span class="n">КАКВО ИМАМЕ</span>
+        <h3>Силна основа</h3>
+        <ul class="l">
+          <li>Близо 62 000 домакинства и над 60 фирми и комплекса като клиенти: Топ Вход, Планекс Инвест, АРХ Хоум Сървиз, Образцов дом, Резиденшъл Парк Лозен.</li>
+          <li>Приложение за живущите с плащане с карта, прозрачна каса, сигнали със снимка, гласуване и табло за обяви.</li>
+          <li>Интеграции с iCard, ePay и EasyPay, банков импорт, ERP функции за фирмите.</li>
+          <li>Отзиви на фирмите, които говорят с цифри: „издаваме фактури за секунди“, „750+ сгради по региони“.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <span class="n">КАКВО НИ ЛИПСВА</span>
+        <h3>Път от интереса до включената сграда</h3>
+        <ul class="l">
+          <li>Живущият, който харесва идеята, няма къде да каже „искам го и аз“.</li>
+          <li>Рекламата досега мереше кликове и започнати регистрации. Включените сгради остават извън отчета.</li>
+          <li>Едно име: в магазините приложението е „LIVO by Angry Building“, а Facebook адресът е LIVOo.me.</li>
+          <li>Разпознаваем глас и герой, които хората да споделят и запомнят.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AUDIT -->
+<section class="s soft" id="audit">
+  <div class="wrap">
+    <div class="head">
+      <span class="eb">Лятната кампания · юни до август 2026</span>
+      <h2 class="mt-s">Рекламата работеше. Измерва се грешно.</h2>
+      <p class="lead">Прегледахме отчетите за юни и август. Показателите за достигане са добри, цената на клик е ниска. Проблемът е в целта, по която системата оптимизира: тя търси хора, които натискат бутон, а LIVO има нужда от сгради, които се включват.</p>
+    </div>
+    <div class="grid g3 mt">
+      <div class="kpi">
+        <div class="top"><h3>Google Search</h3><span class="tag">9.06 до 31.08</span></div>
+        <div class="big">150 €</div><p style="font-size:14px;margin:6px 0 14px">на конверсия</p>
+        <div class="row"><span>Похарчени</span><b>750 €</b></div>
+        <div class="row"><span>Кликове</span><b>496</b></div>
+        <div class="row"><span>Конверсии</span><b>5</b></div>
+        <div class="row"><span>Цена на клик</span><b>1,51 €</b></div>
+      </div>
+      <div class="kpi">
+        <div class="top"><h3>Google Performance Max</h3><span class="tag">9.06 до 31.08</span></div>
+        <div class="big">68 €</div><p style="font-size:14px;margin:6px 0 14px">на конверсия</p>
+        <div class="row"><span>Похарчени</span><b>1 352 €</b></div>
+        <div class="row"><span>Кликове</span><b>5 594</b></div>
+        <div class="row"><span>Конверсии</span><b>20</b></div>
+        <div class="row"><span>Цена на клик</span><b>0,24 €</b></div>
+      </div>
+      <div class="kpi">
+        <div class="top"><h3>Meta · юни и август</h3><span class="tag">FB + IG</span></div>
+        <div class="big">17 €</div><p style="font-size:14px;margin:6px 0 14px">на „Initiate Checkout“</p>
+        <div class="row"><span>Похарчени</span><b>1 458 €</b></div>
+        <div class="row"><span>Достигане</span><b>526 000</b></div>
+        <div class="row"><span>„Initiate Checkout“</span><b>83</b></div>
+        <div class="row"><span>Завършени регистрации</span><b>1</b></div>
+      </div>
+    </div>
+    <div class="grid g2 mt">
+      <div class="ig">
+        <h3>Къде отидоха парите</h3><p class="sub">Похарчен бюджет по канал, в евро</p>
+        <div class="hb" data-tip="Google Performance Max · 1 352 € · 20 конверсии"><span>Performance Max</span><div class="tr"><div class="fl" style="width:100%"></div></div><b>1 352</b></div>
+        <div class="hb" data-tip="Meta, август · 759 € · 52 Initiate Checkout"><span>Meta · август</span><div class="tr"><div class="fl" style="width:56%"></div></div><b>759</b></div>
+        <div class="hb" data-tip="Google Search · 750 € · 5 конверсии"><span>Google Search</span><div class="tr"><div class="fl" style="width:55.5%"></div></div><b>750</b></div>
+        <div class="hb" data-tip="Meta, юни · 698 € · 31 Initiate Checkout и 1 регистрация"><span>Meta · юни</span><div class="tr"><div class="fl" style="width:51.6%"></div></div><b>698</b></div>
+      </div>
+      <div class="ig">
+        <h3>Колко струва един резултат</h3><p class="sub">Цена на конверсия, в евро. Червено: най-скъпият резултат</p>
+        <div class="hb hi" data-tip="Google Search: 750 € / 5 = 150 € на конверсия"><span>Google Search</span><div class="tr"><div class="fl" style="width:100%"></div></div><b>150</b></div>
+        <div class="hb" data-tip="Performance Max: 1 352 € / 20 = 68 € на конверсия"><span>Performance Max</span><div class="tr"><div class="fl" style="width:45%"></div></div><b>68</b></div>
+        <div class="hb" data-tip="Meta юни: 698 € / 31 = 23 € на Initiate Checkout"><span>Meta · юни</span><div class="tr"><div class="fl" style="width:15%"></div></div><b>23</b></div>
+        <div class="hb" data-tip="Meta август: 759 € / 52 = 15 € на Initiate Checkout"><span>Meta · август</span><div class="tr"><div class="fl" style="width:10%"></div></div><b>15</b></div>
+        <p class="note" style="margin-top:14px">При Meta конверсията е започната регистрация, а при Google е събитие от сайта. Нито едно от двете не е включена сграда.</p>
+      </div>
+    </div>
+    <div class="insight mt">
+      <div><div class="big">83 → 1</div><div class="dots" style="margin-top:18px" aria-label="83 точки, една маркирана"><script>document.write('<i class="on"></i>'+'<i></i>'.repeat(82))</script></div></div>
+      <p>83 души са започнали регистрация от рекламата в Meta, а една е завършена. „Initiate Checkout“ отчита натиснат бутон. Когато платформата оптимизира към това събитие, тя намира хора, които кликат лесно, а домоуправителите остават извън обхвата. Новата кампания ще оптимизира към попълнена заявка с адрес на сградата, а успехът ще мерим в CRM: колко от заявките стават включени сгради.</p>
+    </div>
+    <p class="note">Източник: отчетите на LIVO за юни и август 2026. Отчетът за Meta през юли липсва и не е включен. Общо измерен бюджет: около 3 560 €.</p>
+  </div>
+</section>
+
+<!-- AUDIENCE -->
+<section class="s" id="audience">
+  <div class="wrap">
+    <div class="head">
+      <span class="eb">Целева аудитория</span>
+      <h2 class="mt-s">Един човек подписва. Целият вход го иска.</h2>
+      <p class="lead">LIVO се продава на един човек, а се ползва от всички в сградата. Затова говорим на две нива. Фирмите и домоуправителите вземат решението и плащат. Живущите ползват приложението всеки месец и могат да създадат натиск за промяна. Стратегията работи и с двете страни едновременно.</p>
+    </div>
+
+    <div class="grid g2 mt">
+      <article class="persona">
+        <div class="pimg"><img loading="lazy" style="object-position:70% 18%" src="img/v/p_pro.jpg" alt="Управител на фирма домоуправител в офиса"></div>
+        <div class="ph"><span class="role">Купувач · основен приход</span><h3>Професионалният домоуправител</h3><p>Фирма с 20 до 750+ сгради, офис, служители, региони.</p></div>
+        <div class="bd"><dl>
+          <dt>Болката</dt><dd>Ръчно фактуриране, обаждания и Viber групи, информация, която се губи. Всеки нов служител се учи месеци. Живущите питат „къде отиват парите“.</dd>
+          <dt>Какво иска да чуе</dt><dd>Повече сгради със същия екип. Фактури за секунди, масови действия за десетки входове, по-малко обаждания.</dd>
+          <dt>Къде го намираме</dt><dd>Директни имейли, LinkedIn, Google Search, браншови събития, препоръки от други фирми.</dd>
+          <dt>Действие</dt><dd>Демо на живо и помощ при прехвърляне на данните.</dd>
+        </dl><p class="q">„С LIVO поемаме нови входове, без да наемаме нови хора.“</p></div>
+      </article>
+      <article class="persona">
+        <div class="pimg"><img loading="lazy" style="object-position:50% 28%" src="img/v/p_dev.jpg" alt="Строител предава ключовете и приложението"></div>
+        <div class="ph"><span class="role">Купувач · най-бърз мащаб</span><h3>Строителят и инвеститорът</h3><p>Нови комплекси и сгради, следпродажбено обслужване.</p></div>
+        <div class="bd"><dl>
+          <dt>Болката</dt><dd>Купувачите звънят и след ключовете. Първото общо събрание трябва да стане до 6 месеца от въвеждането в експлоатация. Хаосът в сградата вреди на марката на строителя.</dd>
+          <dt>Какво иска да чуе</dt><dd>Сградата тръгва с ред от първия ден. Купувачите получават приложение заедно с ключовете.</dd>
+          <dt>Къде го намираме</dt><dd>Директни срещи, партньорства, изложения за имоти, LinkedIn.</dd>
+          <dt>Действие</dt><dd>Партньорски договор: LIVO се включва във всяка нова сграда.</dd>
+        </dl><p class="q">„Предаваме ключовете и LIVO заедно.“</p></div>
+      </article>
+      <article class="persona">
+        <div class="pimg"><img loading="lazy" style="object-position:50% 12%" src="img/v/p_neighbor.jpg" alt="Домоуправител-съсед с тетрадка и таблет"></div>
+        <div class="ph"><span class="role">Купувач · самообслужване</span><h3>Домоуправителят-съсед</h3><p>Доброволец, обикновено между 40 и 70 години, тетрадка и Excel.</p></div>
+        <div class="bd"><dl>
+          <dt>Болката</dt><dd>Касата трябва да излиза до стотинка, а всеки съсед е одитор. Събирането на такси минава през звънене по вратите. Бележките по таблото остаряват.</dd>
+          <dt>Какво иска да чуе</dt><dd>Касата излиза сама. Всеки вижда отчета в телефона си. 0,61 € на апартамент, първите 3 месеца безплатно.</dd>
+          <dt>Къде го намираме</dt><dd>Facebook групи на домоуправители и квартали, Google Search по проблем, YouTube уроци.</dd>
+          <dt>Действие</dt><dd>Регистрация на сградата онлайн и кратък видео урок.</dd>
+        </dl><p class="q">„Вече никой не ме пита къде са парите.“</p></div>
+      </article>
+      <article class="persona">
+        <div class="pimg"><img loading="lazy" style="object-position:55% 22%" src="img/v/p_resident.jpg" alt="Живуща влиза във входа с телефона"></div>
+        <div class="ph"><span class="role">Ползвател · двигател на търсенето</span><h3>Живущият</h3><p>25 до 45 години, плаща всичко друго от телефона.</p></div>
+        <div class="bd"><dl>
+          <dt>Болката</dt><dd>Плаща в брой на касиера, вижда отчета веднъж годишно, научава за спрения асансьор от лист на вратата.</dd>
+          <dt>Какво иска да чуе</dt><dd>Плащаш с карта, виждаш касата, сигнализираш със снимка. А ако входът ти още няма LIVO, можеш да го поискаш.</dd>
+          <dt>Къде го намираме</dt><dd>Instagram, TikTok, Facebook, местни групи, препоръки от приятели в сгради с LIVO.</dd>
+          <dt>Действие</dt><dd>Форма „Искам LIVO в моя вход“ и сваляне на приложението.</dd>
+        </dl><p class="q">„Поисках го в нашия вход и вече го имаме.“</p></div>
+      </article>
+    </div>
+
+
+    <div class="flow">
+      <div class="st"><div class="ico"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg></div><div class="who">Живущият</div><b>Вижда видеото</b><p>Скеч в Instagram или TikTok, познава своя вход.</p></div>
+      <div class="st"><div class="ico"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></div><div class="who">Живущият</div><b>Пише заявка</b><p>„Искам LIVO в моя вход“: адрес, брой апартаменти.</p></div>
+      <div class="st"><div class="ico"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></div><div class="who">Екипът на LIVO</div><b>Звъни до 24 часа</b><p>Свързва се с домоуправителя на сградата.</p></div>
+      <div class="st"><div class="ico"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg></div><div class="who">Домоуправителят</div><b>Демо и 3 месеца пробно</b><p>Решава с подкрепа от съседите.</p></div>
+      <div class="st"><div class="ico"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 22v-4h6v4M8 6h.01M12 6h.01M16 6h.01M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01"/></svg></div><div class="who">Резултат</div><b>Включена сграда</b><p>Десетки домакинства с една продажба.</p></div>
+    </div>
+    <div class="roles">
+      <div><span class="tag">Взема решение</span><br><b>Фирма, строител, домоуправител-съсед.</b><p style="font-size:15px;margin-top:6px">Получава демо, оферта и помощ при внедряването. Мерим демота и подписани сгради.</p></div>
+      <div><span class="tag y">Влияе</span><br><b>Живущият, касиерът, контрольорът.</b><p style="font-size:15px;margin-top:6px">Създава натиск отдолу. Мерим заявки „Искам LIVO“ с адрес на сградата.</p></div>
+      <div><span class="tag g">Ползва всеки месец</span><br><b>Всички в сградата.</b><p style="font-size:15px;margin-top:6px">Активният ползвател задържа клиента. Мерим активни домакинства в приложението.</p></div>
+    </div>
+
+    <div class="card mt">
+      <span class="n">ЗАЩО ГО ПРАВИМ</span>
+      <h3>Растежът на LIVO идва от домакинствата, а домакинствата идват със сградите.</h3>
+      <p style="margin-top:10px">Досега LIVO расте чрез продажби на фирми. Това е стабилно, но бавно и зависи от няколко души в екипа. Ако живущите започнат сами да искат системата, а строителите я включват по подразбиране, всяка нова сграда носи десетки домакинства без допълнителна продажба. Целта на 90-те дни е да подредим тази система и да докажем кой канал носи сграда на най-добра цена.</p>
+    </div>
+  </div>
+</section>
+
+<!-- MARKET -->
+<section class="s soft" id="market">
+  <div class="wrap">
+    <div class="head">
+      <span class="eb">Пазарът · България 2026</span>
+      <h2 class="mt-s">Най-големият конкурент е тетрадката.</h2>
+      <p class="lead">Само в София има около 23 000 многофамилни сгради. Голяма част от тях все още се управляват с хартия, Excel и Viber група. Сред софтуерите има и безплатни, затова LIVO трябва ясно да покаже какво печели сградата, когато плаща.</p>
+    </div>
+    <div class="media wide"><img loading="lazy" src="img/v/market.jpg" alt="Жилищен квартал в София отвисоко"><span class="cap">~23 000 многофамилни сгради само в София</span></div>
+    <div class="grid g2 mt" style="align-items:stretch">
+      <div class="ig">
+        <h3>Карта на пазара</h3><p class="sub">Качествена оценка: цена спрямо това колко получава живущият</p>
+        <div class="map">
+          <span class="ax" style="left:12px;bottom:10px">← Безплатно</span>
+          <span class="ax" style="right:12px;bottom:10px">Платено →</span>
+          <span class="ax" style="left:12px;top:10px">↑ Силно приложение за живущите</span>
+          
+          <div class="pt me" style="left:70%;top:22%" data-tip="LIVO: платен, мобилно приложение с плащане с карта, сигнали и гласуване"><i></i>LIVO</div>
+          <div class="pt" style="left:24%;top:30%" data-tip="Homie: безплатен Basic план, HomiePay, Market и Ads"><i></i>Homie</div>
+          <div class="pt" style="left:18%;top:68%" data-tip="еДомоуправител: безплатен софтуер, фокус върху администрацията"><i></i>еДомоуправител</div>
+          <div class="pt" style="left:74%;top:72%" data-tip="ECR, PM-Pro, Property-Manager, vhod.expert: абонамент за фирми"><i></i>ECR · PM-Pro · др.</div>
+          <div class="pt" style="left:82%;top:44%" data-tip="OnlineUpravitel: от 190 лв. на месец, софтуер плюс услуга"><i></i>OnlineUpravitel</div>
+          <div class="pt" style="left:22%;top:84%" data-tip="Тетрадка, Excel и Viber: най-разпространеният начин"><i></i>Тетрадка и Viber</div>
+        </div>
+      </div>
+      <div class="ig" style="display:flex;flex-direction:column;justify-content:space-between">
+        <div><h3>Колко голям е пазарът</h3><p class="sub">Многофамилни сгради и обхват на LIVO днес</p></div>
+        <div class="big" style="font-size:64px;color:var(--lav-d)">23 000</div>
+        <p style="margin:-6px 0 18px">многофамилни сгради само в София (по данни на „Тоест“)</p>
+        <div class="hb" data-tip="Около 62 000 домакинства ползват LIVO днес"><span>Домакинства в LIVO</span><div class="tr"><div class="fl" style="width:100%"></div></div><b>62 000</b></div>
+        <div class="hb" data-tip="Над 10 000 сваляния в Google Play. Данните за iOS липсват"><span>Сваляния, Android</span><div class="tr"><div class="fl" style="width:16%"></div></div><b>10 000+</b></div>
+        <div class="hb" data-tip="2 100 оценки в Google Play със средна оценка 4,8"><span>Оценки, Google Play</span><div class="tr"><div class="fl" style="width:3.4%"></div></div><b>2 100</b></div>
+        <p class="note">Разликата между домакинствата и свалянията е първата ни възможност за растеж: хора, които вече са в LIVO, но още ползват стария начин.</p>
+      </div>
+    </div>
+    <div class="tw mt">
+      <table>
+        <thead><tr><th>Решение</th><th>Модел</th><th>Силна страна</th><th>Къде LIVO печели</th></tr></thead>
+        <tbody>
+          <tr class="me"><td>LIVO</td><td>Фирми по оферта · съсед 0,61 € / ап. · 3 месеца пробно</td><td>Приложение 4,8 ★, плащане с карта, ERP за фирми, 60+ фирми клиенти</td><td>Цялостна система за фирми и живущи едновременно</td></tr>
+          <tr><td>Homie</td><td>Безплатен Basic план, HomiePay, Market, Ads</td><td>Безплатен вход, PR в Капитал, екосистема от услуги</td><td>Доказан мащаб при професионалните фирми и дълбочина на функциите</td></tr>
+          <tr><td>еДомоуправител</td><td>Безплатен</td><td>Ниска бариера, съдържание за ЗУЕС</td><td>Мобилно приложение и плащане с карта за живущите</td></tr>
+          <tr><td>ECR, PM-Pro, Property-Manager, vhod.expert</td><td>Абонамент за фирми</td><td>Фокус върху счетоводството на домоуправителя</td><td>Преживяване за живущия, което фирмата може да продава като услуга</td></tr>
+          <tr><td>OnlineUpravitel</td><td>От 190 лв. на месец</td><td>Комбинира софтуер и услуга</td><td>По-ниска цена на апартамент, без смяна на домоуправителя</td></tr>
+          <tr><td>Тетрадка, Excel, Viber</td><td>„Безплатно“</td><td>Навик</td><td>Прозрачност, по-малко спорове, спестено време</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="grid g3 mt">
+      <div class="card"><span class="n">ЕВРОТО</span><h3>Всички такси вече са в евро</h3><p>От 1 януари 2026 таксите, касите и отчетите се преизчисляват. За тетрадката това е главоболие, за LIVO е повод за кампания: „Касата в евро излиза от само себе си“.</p></div>
+      <div class="card"><span class="n">ЗУЕС</span><h3>Кворум 51% и онлайн гласуване</h3><p>По-ниският кворум прави събранията по-лесни, но съседите пак трудно се събират. Гласуването от телефона е силен аргумент към домоуправителите.</p></div>
+      <div class="card"><span class="n">НОВОТО СТРОИТЕЛСТВО</span><h3>Първото събрание до 6 месеца</h3><p>Всяка нова сграда трябва да избере управление. Това е точният момент LIVO да влезе, още преди навиците да се оформят.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- RISKS -->
+<section class="s dark" id="risks">
+  <div class="wrap">
+    <div class="head">
+      <span class="eb">Преди да натиснем газта</span>
+      <h2 class="mt-s">Какво трябва да е готово, за да издържи растежът</h2>
+      <p class="lead">Рекламата ускорява всичко, включително слабите места. Ако кампанията проработи и заявките се удвоят, тези точки решават дали ще ги превърнем в сгради или ще ги изгубим.</p>
+    </div>
+    <div class="grid g3 mt">
+      <div class="media" style="aspect-ratio:auto;min-height:260px"><img loading="lazy" style="object-position:45% 50%" src="img/v/board.jpg" alt="Претрупано табло за обяви във вход и телефон с известие"><span class="cap">Старият начин срещу новия</span></div>
+      <div class="ig">
+        <h3>Колко домакинства ползват приложението</h3><p class="sub">Сваляния в Android спрямо домакинствата в LIVO</p>
+        <div class="ring" data-tip="10 000+ сваляния в Google Play спрямо ~62 000 домакинства. Данните за iOS липсват.">
+          <svg viewBox="0 0 120 120" role="img" aria-label="16 процента"><circle cx="60" cy="60" r="50" fill="none" stroke="#3A3055" stroke-width="14"/><circle cx="60" cy="60" r="50" fill="none" stroke="#F4D56B" stroke-width="14" stroke-linecap="round" stroke-dasharray="50.3 314" transform="rotate(-90 60 60)"/><text x="60" y="66" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="Wix Madefor Display">~16%</text></svg>
+          <p style="font-size:14px">Около 1 от 6 домакинства е свалило приложението на Android. С iOS делът е по-висок, но голяма част от сградите още плащат по стария начин.</p>
+        </div>
+      </div>
+      <div class="ig">
+        <h3>Натоварване на екипа</h3><p class="sub">Ако кампанията донесе 200 заявки на месец</p>
+        <div class="big" style="color:var(--sun);font-size:54px">≈ 10</div>
+        <p style="font-size:14px;margin:6px 0 14px">нови заявки на работен ден за екип от 4 души в продажби и обслужване</p>
+        <div class="dots" style="grid-template-columns:repeat(20,1fr)"><script>document.write('<i class="on"></i>'.repeat(4)+'<i></i>'.repeat(196))</script></div>
+        <p class="note">Жълто: хората в екипа. Сиво: заявките за един месец.</p>
+      </div>
+    </div>
+    <div class="mt">
+      <div class="risk"><div class="i">01</div><div><h3>Едно име навсякъде</h3><p>В App Store и Google Play приложението е „LIVO by Angry Building“, имейлът за поддръжка в Google Play е на angrybuilding.com, а Facebook адресът е LIVOo.me. Човек, който търси „LIVO“ след реклама, среща три различни марки.</p><p class="fix"><b>Решение:</b> преименуване в магазините на „LIVO · Управление на сграда“, нов адрес facebook.com/livo.me (или подобен), имейли само на livo.me, профили в Instagram и TikTok с еднакво име.</p></div></div>
+      <div class="risk"><div class="i">02</div><div><h3>Сайтът говори само на фирми</h3><p>Живущият, който харесва LIVO, няма свой път в сайта. Единствената форма е Google Form „Намери домоуправител“, която изглежда случайно и праща данните извън системата.</p><p class="fix"><b>Решение:</b> страница „Искам LIVO в моя вход“ с адрес на сградата, брой апартаменти и контакт на домоуправителя. Данните влизат директно в CRM.</p></div></div>
+      <div class="risk"><div class="i">03</div><div><h3>Измерване до включената сграда</h3><p>Днес рекламата завършва с клик. Няма връзка между реклама, заявка, демо и подписана сграда, затова никой бюджет не може да се защити с цифри.</p><p class="fix"><b>Решение:</b> Meta Pixel и Conversions API, Google Ads с офлайн конверсии от CRM, UTM на всеки линк, етапи в CRM: заявка, контакт, демо, оферта, включена сграда.</p></div></div>
+      <div class="risk"><div class="i">04</div><div><h3>Кой отговаря на заявките</h3><p>В екипа има един Head of Sales, двама души в развитие на бизнеса и един Client Success. При 200 заявки от живущи на месец този екип ще бъде залят, а живущият, който чака седмица, губи интерес.</p><p class="fix"><b>Решение:</b> правило за отговор до 24 часа, автоматичен имейл и SMS при заявка, готов скрипт за разговор с домоуправителя, ясно кой поема заявката.</p></div></div>
+      <div class="risk"><div class="i">05</div><div><h3>Активиране на тези, които вече са вътре</h3><p>В системата има около 62 000 домакинства, а приложението в Google Play има 10 хил.+ сваляния. Голяма част от хората в сградите с LIVO вероятно още плащат по стария начин.</p><p class="fix"><b>Решение:</b> кампания към настоящите сгради („Свали приложението, таксата е там“), материали за входа с QR код, цел за дял плащания с карта.</p></div></div>
+      <div class="risk"><div class="i">06</div><div><h3>Точната формулировка на плащането</h3><p>Интегрираното плащане към сметката на етажната собственост е най-силният аргумент. Homie също говори за плащания чрез HomiePay. Ако твърдим „единствени“, трябва да е проверено.</p><p class="fix"><b>Решение:</b> с Тони уточняваме какво точно е различно (директно по сметката на ЕС, условия, такса) и го казваме с цифра.</p></div></div>
+      <div class="risk"><div class="i">07</div><div><h3>Отговор на „защо да плащам“</h3><p>Има безплатни конкуренти. 0,61 € на апартамент е малко, но съседите сравняват с нулата.</p><p class="fix"><b>Решение:</b> калкулатор „Колко струва хаосът във входа“, сравнение на спестено време, активно продаване на 3-месечния пробен период.</p></div></div>
+      <div class="risk"><div class="i">08</div><div><h3>Домоуправителят остава съюзник</h3><p>Кампания към живущите лесно може да прозвучи като атака срещу домоуправителя, а той е клиентът на LIVO.</p><p class="fix"><b>Решение:</b> посланието го пази („не сменяй домоуправителя“), а всяка заявка от вход отива при сегашния домоуправител като предложение с безплатен пробен период.</p></div></div>
+      <div class="risk"><div class="i">09</div><div><h3>Шлифовка на текстовете</h3><p>Системата държи парите на входа, затова всеки детайл говори за доверие. В сайта има грешки като „Бългаски език“, „нащата система“, „Получваш“, „участе“, „Client Success Manage“.</p><p class="fix"><b>Решение:</b> редакция на сайта и описанията в магазините преди старта на рекламата.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- MESSAGE -->
+<section class="s" id="message">
+  <div class="wrap">
+    <div class="split">
+      <div class="head">
+        <span class="eb">Позициониране и послание</span>
+        <h2 class="mt-s">Модерната система за етажната собственост</h2>
+        <p class="lead">LIVO е софтуер, който улеснява и домоуправителя, и живущите. Във всяко съобщение уточняваме, че LIVO е система, с която работи домоуправителят.</p>
+        <div class="card mt-s" style="background:var(--lav);border:0;color:#fff">
+          <span class="n" style="color:#fff;opacity:.8">ОСНОВНО ПОСЛАНИЕ</span>
+          <h3 style="font-size:28px;color:#fff">Не сменяй домоуправителя. Смени системата.</h3>
+          <p style="color:#fff;opacity:.9;margin-top:8px">Втора линия за скечовете: „Съседите няма да ги променим. Начина, по който управляваме входа, можем.“</p>
+        </div>
+      </div>
+      <div class="grid g2">
+        <div class="card"><span class="n">01</span><h3>Касата излиза</h3><p>Приходи, разходи и наличност са видими за всеки в телефона му.</p></div>
+        <div class="card"><span class="n">02</span><h3>Плащаш от дивана</h3><p>Таксата се плаща с карта, домоуправителят вижда плащането веднага.</p></div>
+        <div class="card"><span class="n">03</span><h3>Сигнал със снимка</h3><p>Изгоряла крушка, теч, счупена врата: снимка, изпращаш и следиш статуса.</p></div>
+        <div class="card"><span class="n">04</span><h3>Решения от телефона</h3><p>Гласуване и обяви без събрания до полунощ.</p></div>
+      </div>
+    </div>
+    <div class="grid g3 mt">
+      <div class="card"><span class="n">ТОН В РЕКЛАМАТА</span><h3>Смешно и разпознаваемо</h3><p>Скечове от живота във входа: клюкарката, касиерът, събранието, бай Иван. Хуморът привлича вниманието, а приложението решава ситуацията.</p></div>
+      <div class="card"><span class="n">ТОН В ПРОДУКТА</span><h3>Сериозно и точно</h3><p>Сайт, имейли, оферти и съобщения в приложението звучат спокойно и професионално. Цифри, срокове, ясни стъпки.</p></div>
+      <div class="card"><span class="n">ГЕРОЯТ</span><h3>Бай Иван се модернизира</h3><p>Бай Иван е образът на стария начин. Той остава симпатичен: LIVO му помага да стане домоуправителят, когото всички хвалят.</p></div>
+    </div>
+    <div class="grid g4 mt">
+      <figure class="frame" style="background:var(--violet)"><img loading="lazy" src="img/app_2.jpg" alt="Екран: обяви" style="aspect-ratio:9/19.5;object-fit:cover"><figcaption><b>ТАБЛО ЗА ОБЯВИ</b>Всички съседи виждат обявата.</figcaption></figure>
+      <figure class="frame" style="background:var(--violet)"><img loading="lazy" src="img/app_4.jpg" alt="Екран: каса" style="aspect-ratio:9/19.5;object-fit:cover"><figcaption><b>КАСАТА</b>Наличност и транзакции в реално време.</figcaption></figure>
+      <figure class="frame" style="background:var(--violet)"><img loading="lazy" src="img/app_5.jpg" alt="Екран: месечен бюджет" style="aspect-ratio:9/19.5;object-fit:cover"><figcaption><b>МЕСЕЧЕН БЮДЖЕТ</b>Къде отива всяко евро от таксата.</figcaption></figure>
+      <div class="media" style="aspect-ratio:auto"><img loading="lazy" style="object-position:50% 40%" src="img/v/message.jpg" alt="Телефон с LIVO пред пощенските кутии"></div>
+    </div>
+    <div class="card mt" style="display:flex;gap:28px;align-items:center;flex-wrap:wrap">
+      <div style="flex:1;min-width:260px"><span class="n">БРАНД ЕЛЕМЕНТИ</span><h3>Какво пазим във всяка визия</h3><p style="margin-top:6px">Лого LIVO, шрифт Wix Madefor Display, лилаво от приложението, тъмен виолетов фон на екраните и жълт акцент за бутоните. Реалният екран на приложението се появява във всяко видео.</p></div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <div style="width:78px;text-align:center;font-size:12px"><div style="height:64px;border-radius:14px;background:#9C8FDA"></div>#9C8FDA</div>
+        <div style="width:78px;text-align:center;font-size:12px"><div style="height:64px;border-radius:14px;background:#231C35"></div>#231C35</div>
+        <div style="width:78px;text-align:center;font-size:12px"><div style="height:64px;border-radius:14px;background:#F4D56B"></div>#F4D56B</div>
+        <div style="width:78px;text-align:center;font-size:12px"><div style="height:64px;border-radius:14px;background:#F3F0FF;border:1px solid var(--line)"></div>#F3F0FF</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FUNNEL -->
+<section class="s soft" id="funnel">
+  <div class="wrap">
+    <div class="head">
+      <span class="eb">Маркетингова фуния</span>
+      <h2 class="mt-s">От интерес до активно домакинство</h2>
+      <p class="lead">Пет етапа, всеки със свое съдържание и своя мярка. Бюджетът се движи към етапа, който в момента губи най-много хора.</p>
+    </div>
+    <div class="funnel2">
+      <div class="fn" aria-label="Фуния в пет етапа">
+        <div style="width:100%;background:#C4BAEE;color:var(--ink)" data-tip="Етап 1: достигане до хиляди хора с видео">Разпознаваемост</div>
+        <div style="width:84%;background:#AFA3E4;color:var(--ink)" data-tip="Етап 2: хората разглеждат функциите и сайта">Интерес</div>
+        <div style="width:68%;background:var(--lav)" data-tip="Етап 3: заявка с адрес или заявка за демо">Заявка</div>
+        <div style="width:52%;background:var(--lav-d)" data-tip="Етап 4: сградата е включена в LIVO">Включване</div>
+        <div style="width:36%;background:var(--violet)" data-tip="Етап 5: домакинствата ползват приложението и препоръчват">Активиране</div>
+      </div>
+      <div class="ig">
+        <h3>Какво се променя спрямо лятото</h3><p class="sub">Целта на оптимизацията се мести надолу по фунията</p>
+        <div class="hb" data-tip="Лятото: рекламата оптимизира по натиснат бутон"><span>Лятото оптимизира</span><div class="tr"><div class="fl" style="width:40%;background:var(--mid)"></div></div><b>клик</b></div>
+        <div class="hb" data-tip="Сега: заявка с адрес, после включена сграда от CRM"><span>Сега оптимизираме</span><div class="tr"><div class="fl" style="width:80%"></div></div><b>сграда</b></div>
+        <p class="note">Колкото по-надолу във фунията е целта, толкова по-малко са резултатите, но всеки струва повече за бизнеса.</p>
+      </div>
+    </div>
+    <div class="funnel">
+      <div class="fs"><div><h3>1 · Разпознаваемост</h3><span class="k">Скечове, PR, партньорства</span></div><div><div class="bar" style="width:100%"></div><p class="mt-s" style="margin-top:8px">Ежедневните проблеми във входа и как LIVO ги решава.</p></div><div class="k">Достигане, гледания на 75% от видеото</div></div>
+      <div class="fs"><div><h3>2 · Интерес</h3><span class="k">Продуктови видеа, сайт</span></div><div><div class="bar" style="width:80%"></div><p style="margin-top:8px">Функциите в действие: каса, плащане с карта, сигнали, гласуване, отчети.</p></div><div class="k">Посещения на сайта, време на страницата</div></div>
+      <div class="fs"><div><h3>3 · Заявка</h3><span class="k">„Искам LIVO в моя вход“, демо</span></div><div><div class="bar" style="width:58%"></div><p style="margin-top:8px">Кратка форма с адрес и брой апартаменти. За фирмите: заявка за демо.</p></div><div class="k">Заявки с адрес, цена на заявка</div></div>
+      <div class="fs"><div><h3>4 · Включване</h3><span class="k">Продажби, внедряване</span></div><div><div class="bar" style="width:38%"></div><p style="margin-top:8px">Контакт с домоуправителя, демо, пробен период и прехвърляне на данните.</p></div><div class="k">Включени сгради, % от заявките</div></div>
+      <div class="fs"><div><h3>5 · Активиране и препоръки</h3><span class="k">Приложение, реферали</span></div><div><div class="bar" style="width:24%"></div><p style="margin-top:8px">Живущите свалят приложението, плащат с карта и препоръчват LIVO в друг вход.</p></div><div class="k">Активни домакинства, препоръки</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CHANNELS -->
+<section class="s" id="channels">
+  <div class="wrap">
+    <div class="head">
+      <span class="eb">Канали и активности</span>
+      <h2 class="mt-s">Всеки канал има своя работа</h2>
+      <p class="lead">Подредени по приоритета от срещата: най-прекият път до купувача е първи.</p>
+    </div>
+    <div class="ig mt tw">
+      <h3>Кой канал за какво работи</h3><p class="sub">Роля на всеки канал по етапите на фунията</p>
+      <table class="matrix" style="border:0">
+        <thead><tr><th>Канал</th><th>Разпознаваемост</th><th>Интерес</th><th>Заявка</th><th>Включване</th><th>Активиране</th></tr></thead>
+        <tbody>
+          <tr><td>Имейл към фирми</td><td><i class="lv"></i></td><td><i class="lv m"></i></td><td><i class="lv h"></i></td><td><i class="lv h"></i></td><td><i class="lv"></i></td></tr>
+          <tr><td>Видео скечове</td><td><i class="lv h"></i></td><td><i class="lv m"></i></td><td><i class="lv"></i></td><td><i class="lv"></i></td><td><i class="lv m"></i></td></tr>
+          <tr><td>Meta Ads</td><td><i class="lv h"></i></td><td><i class="lv h"></i></td><td><i class="lv h"></i></td><td><i class="lv"></i></td><td><i class="lv m"></i></td></tr>
+          <tr><td>Google Search</td><td><i class="lv"></i></td><td><i class="lv h"></i></td><td><i class="lv h"></i></td><td><i class="lv m"></i></td><td><i class="lv"></i></td></tr>
+          <tr><td>Реферали</td><td><i class="lv"></i></td><td><i class="lv m"></i></td><td><i class="lv h"></i></td><td><i class="lv h"></i></td><td><i class="lv h"></i></td></tr>
+          <tr><td>Партньори и строители</td><td><i class="lv m"></i></td><td><i class="lv m"></i></td><td><i class="lv h"></i></td><td><i class="lv h"></i></td><td><i class="lv m"></i></td></tr>
+          <tr><td>Офлайн и QR</td><td><i class="lv m"></i></td><td><i class="lv"></i></td><td><i class="lv m"></i></td><td><i class="lv"></i></td><td><i class="lv h"></i></td></tr>
+          <tr><td>PR и медии</td><td><i class="lv h"></i></td><td><i class="lv m"></i></td><td><i class="lv"></i></td><td><i class="lv"></i></td><td><i class="lv"></i></td></tr>
+        </tbody>
+      </table>
+      <div class="legend"><span><i class="lv h"></i>Основна роля</span><span><i class="lv m"></i>Помага</span><span><i class="lv"></i>Слаба роля</span></div>
+    </div>
+    <div class="grid g3 mt">
+      <div class="card"><div class="icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></div><span class="tag">B2B</span><span class="tag y">Приоритет 1</span><h3>Имейл и директна комуникация</h3><ul class="l"><li>Сегментирани поредици към фирми домоуправители, строители и комплекси.</li><li>Персонални оферти към фирми с над 50 сгради.</li><li>Казуси с цифри от Топ Вход, Планекс, АРХ Хоум Сървиз.</li><li>Покана за индивидуално демо и LIVO Open Demo веднъж месечно.</li></ul></div>
+      <div class="card"><div class="icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg></div><span class="tag">B2C + B2B</span><span class="tag y">Приоритет 2</span><h3>Социални мрежи</h3><ul class="l"><li>Facebook, Instagram и TikTok с едно име и един тон.</li><li>Продуктови видеа до 30 секунди: една функция, едно видео.</li><li>Истории на потребители и представяне на клиентите.</li><li>Публикации в групите на домоуправители и квартали.</li></ul></div>
+      <div class="card"><div class="icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 8-6 4 6 4V8Z"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg></div><span class="tag">B2C</span><span class="tag y">Приоритет 3</span><h3>Видео скечове</h3><ul class="l"><li>Поредица „Бай Иван“ и три по-дълги скеча (виж Криейтив).</li><li>Вертикален формат за Reels и TikTok, хоризонтална версия за YouTube.</li><li>Всяко видео завършва с реалния екран на приложението.</li></ul></div>
+      <div class="card"><div class="icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></div><span class="tag">B2B + B2C</span><span class="tag y">Приоритет 4</span><h3>Google</h3><ul class="l"><li>Search по проблем: „софтуер за домоуправител“, „плащане такса вход онлайн“, „касова книга етажна собственост“.</li><li>Отделни кампании за фирми и за съседи.</li><li>YouTube с най-силните скечове, ремаркетинг към посетителите.</li><li>Оптимизация по офлайн конверсии от CRM.</li></ul></div>
+      <div class="card"><div class="icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div><span class="tag">Платени</span><h3>Meta Ads</h3><ul class="l"><li>Видео за разпознаваемост, оптимизирано по гледания.</li><li>Lead кампании „Искам LIVO в моя вход“ с форма в Meta и в сайта.</li><li>Ремаркетинг към гледалите видеото и посетителите на сайта.</li><li>Lookalike по включените сгради, а не по кликовете.</li></ul></div>
+      <div class="card"><div class="icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></div><span class="tag">Растеж</span><h3>Реферална програма „Препоръчай LIVO“</h3><ul class="l"><li>Персонален линк в приложението.</li><li>„Доведи LIVO и в другия вход“: бонус при включена сграда.</li><li>Бонус за домоуправителя, който препоръча колега.</li></ul></div>
+      <div class="card"><div class="icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="8" rx="1"/><path d="M17 14v7M7 14v7M17 3v3M7 3v3M10 14 2.3 6.3M14 6l7.7 7.7M8 6l8 8"/></svg></div><span class="tag">Партньори</span><h3>LIVO Benefits</h3><ul class="l"><li>Строители и инвеститори: LIVO във всяка нова сграда.</li><li>Фирми за асансьори, почистване и поддръжка.</li><li>Отстъпки за потребителите от услуги за дома (напр. доставки).</li><li>Кръстосани бази данни с партньори.</li></ul></div>
+      <div class="card"><div class="icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></div><span class="tag">Локално</span><h3>Офлайн и провинцията</h3><ul class="l"><li>Материали с QR код за входовете с LIVO.</li><li>Пилот в два града извън София (Пловдив, Варна или Бургас според данните).</li><li>Присъствие на събития за строителство и имоти.</li></ul></div>
+      <div class="card"><div class="icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg></div><span class="tag">Доверие</span><h3>PR и медии</h3><ul class="l"><li>Дигитализацията на етажната собственост в България.</li><li>Как изглежда модерният домоуправител.</li><li>Касата в евро: какво се промени за входовете.</li><li>62 000 домакинства като медийна история.</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- CREATIVE -->
+<section class="s dark" id="creative">
+  <div class="wrap">
+    <div class="head">
+      <span class="eb">Криейтив · сторибордове</span>
+      <h2 class="mt-s">Входът е най-добрият сценарист</h2>
+      <p class="lead">Шест концепции от екипа, разписани кадър по кадър. Три по-дълги скеча за разпознаваемост и поредица от кратки видеа с бай Иван. Кадрите са концептуални и показват посоката. Финалните ще заснемем с реални актьори и истинския екран на LIVO.</p>
+    </div>
+
+    <div class="sbset">
+      <div class="sbh"><div><span class="tag">Скеч · 45 сек</span><span class="tag y">Живущи</span><h3>Всеки вход си има такива баби</h3></div><p style="max-width:420px;font-size:15px">Функция: сигнал за нередност. Бабата, която знае всичко, най-после има полезен канал.</p></div>
+      <div class="frames">
+        <figure class="frame"><img loading="lazy" style="object-position:40% 28%" src="img/sb/baba_1.jpg" alt="Баба на балкона говори по телефона"><figcaption><b>СЦЕНА 1 · HOOK</b>„Станкеее, чакай… тоя пак се прибира… и не е сам!“</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/baba_2.jpg" alt="Изглед от балкона към входа"><figcaption><b>СЦЕНА 2 · МОНТАЖ</b>Ново гадже, торба с чипс, нова кола. Бабата коментира всичко.</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/baba_3.jpg" alt="Мъж паркира джип пред гаража"><figcaption><b>СЦЕНА 3 · ОБРАТЪТ</b>„Ще паркира ТАМ?! Запуши ми гледката! Станка, ще пиша в LIVO.“</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/baba_4.jpg" alt="Ръце на баба изпращат сигнал от телефона"><figcaption><b>СЦЕНА 4 · LIVO</b>Снимка, изпращане, готово. „А сега да ти кажа за русата от третия…“</figcaption></figure>
+      </div>
+      <div class="endcard">LIVO · За важните неща във входа. Клюките остават за вас. <small>Финален надпис</small></div>
+    </div>
+
+    <div class="sbset">
+      <div class="sbh"><div><span class="tag">Скеч · 45 сек</span><span class="tag y">Домоуправител-съсед, касиер</span><h3>Математическият гений</h3></div><p style="max-width:420px;font-size:15px">Функция: каса и финансов отчет. Намигване за възрастна аудитория, без вулгарност.</p></div>
+      <div class="frames">
+        <figure class="frame"><img loading="lazy" src="img/sb/math_1.jpg" alt="Мъж смята сметки на бюро"><figcaption><b>СЦЕНА 1</b>Касовите бележки, калкулаторът и формулите около главата. „Пак не излиза!“</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/math_2.jpg" alt="Жена на вратата на спалнята"><figcaption><b>СЦЕНА 2 · ИЗКУШЕНИЕТО</b>„Милооо…“ · „НЕ СЕГА, ЖЕНА! КАСАТА НА БЛОКА НЕ ИЗЛИЗА!“</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/math_3.jpg" alt="Жената показва приложението на телефона"><figcaption><b>СЦЕНА 3 · РЕШЕНИЕТО</b>„LIVO. Всички приходи, разходи и наличности на входа на едно място.“</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/math_4.jpg" alt="Мъжът скача от радост"><figcaption><b>СЦЕНА 4 · ПРОСВЕТЛЕНИЕТО</b>„ВСИЧКО ИЗЛИЗА!“ Очилата падат, вратата се затваря.</figcaption></figure>
+      </div>
+      <div class="endcard">LIVO · Когато сметките излизат, всичко друго си идва на мястото. <small>livo.me</small></div>
+    </div>
+
+    <div class="sbset">
+      <div class="sbh"><div><span class="tag">Скеч · 60 сек</span><span class="tag y">Всички</span><h3>Поредното събрание</h3></div><p style="max-width:420px;font-size:15px">Функция: гласуване, сигнали, плащане и известия. Най-широкото послание за YouTube и Meta.</p></div>
+      <div class="frames">
+        <figure class="frame"><img loading="lazy" src="img/sb/meet_1.jpg" alt="Шумно събрание във входа"><figcaption><b>19:00 · СЪБРАНИЕТО</b>„А КОЙ ЩЕ ОПРАВИ АСАНСЬОРА?!“ Всички говорят едновременно.</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/meet_2.jpg" alt="Изморени съседи късно вечер"><figcaption><b>23:07 · ЧЕТИРИ ЧАСА ПО-КЪСНО</b>„Госпожо, още сме на първа точка!“</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/meet_3.jpg" alt="Млад съсед показва телефона"><figcaption><b>РЕШЕНИЕТО</b>„Абе, хора… вие за LIVO не сте ли чували?“</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/meet_4.jpg" alt="Домоуправителят си тръгва спокоен"><figcaption><b>ФИНАЛЕН ОБРАТ</b>„Абе, само да те питам…“ · „В LIVO, госпожо! В LIVO!“</figcaption></figure>
+      </div>
+      <div class="endcard">LIVO · Съседите няма да ги променим. Начина, по който управляваме входа, можем. <small>Финален надпис</small></div>
+    </div>
+
+    <div class="sbset">
+      <div class="sbh"><div><span class="tag">Бай Иван · 30 сек · еп. 1</span><span class="tag y">Живущи, съседи</span><h3>Крушката</h3></div><p style="max-width:420px;font-size:15px">Функция: сигнал със снимка и статус „В процес“.</p></div>
+      <div class="frames">
+        <figure class="frame"><img loading="lazy" src="img/sb/bulb_1.jpg" alt="Тъмно стълбище и бай Иван"><figcaption><b>0 до 2 сек</b>„Бай Иване, смени ли крушката?“ · „Смених я. Защо?“</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/bulb_2.jpg" alt="Ключ за осветление и тъмна крушка"><figcaption><b>2 до 11 сек</b>Щрак. Нищо. „Бай Иване, асансьор има на всеки етаж.“</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/bulb_3.jpg" alt="Съседът снима лампата"><figcaption><b>11 до 22 сек</b>„Пращам ти снимка в LIVO. Трети етаж, до асансьора.“</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/bulb_4.jpg" alt="Бай Иван чете сигнала"><figcaption><b>22 до 26 сек</b>„Отбелязвам „В процес“.“ · „А вчера коя смени?“ · „На втория.“</figcaption></figure>
+      </div>
+      <div class="endcard">Не сменяй домоуправителя, смени системата. <small>LIVO · Софтуер за управление на сгради</small></div>
+    </div>
+
+    <div class="sbset">
+      <div class="sbh"><div><span class="tag">Бай Иван · 30 сек · еп. 2</span><span class="tag y">Живущи, домоуправители</span><h3>Водата</h3></div><p style="max-width:420px;font-size:15px">Функция: табло за обяви и известия в телефона.</p></div>
+      <div class="frames">
+        <figure class="frame"><img loading="lazy" src="img/sb/water_1.jpg" alt="Съседка сочи стара бележка"><figcaption><b>0 до 10 сек</b>„Тука пише „Утре спират водата“.“ · „Това е бележка от миналия месец.“</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/water_2.jpg" alt="Бай Иван показва телефона"><figcaption><b>10 до 22 сек</b>„За утре има ремонт, но на асансьора. Пуснах обявата в LIVO.“</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/water_3.jpg" alt="Съседката чете известие, зад нея пълна вана"><figcaption><b>КЛОУЗАП</b>„А, от девет до единайсет.“ Ваната зад нея е пълна догоре.</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/water_4.jpg" alt="Бай Иван полива мушкато"><figcaption><b>22 до 26 сек</b>„А водата от ваната?“ · „Полей мушкатото.“</figcaption></figure>
+      </div>
+      <div class="endcard">Не сменяй домоуправителя, смени системата. <small>LIVO · Софтуер за управление на сгради</small></div>
+    </div>
+
+    <div class="sbset">
+      <div class="sbh"><div><span class="tag">Бай Иван · 30 сек · еп. 3</span><span class="tag y">Живущи, касиери</span><h3>Таксата</h3></div><p style="max-width:420px;font-size:15px">Функция: плащане с карта и справка за плащанията.</p></div>
+      <div class="frames">
+        <figure class="frame"><img loading="lazy" src="img/sb/fee_1.jpg" alt="Бай Иван спира съседа пред асансьора"><figcaption><b>0 до 9 сек</b>„Комшу, чакам те за таксата.“ · „Платих я. Снощи, от дивана.“</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/fee_2.jpg" alt="Съсед плаща от дивана"><figcaption><b>ФЛАШБЕК</b>Диван, телевизор, карта, две секунди. „С карта, бай Иване. През LIVO.“</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/fee_3.jpg" alt="Бай Иван вижда плащането"><figcaption><b>9 до 21 сек</b>„Апартамент осем… Ноември… Платено. Аз щях довечера да ти звъня.“</figcaption></figure>
+        <figure class="frame"><img loading="lazy" src="img/sb/fee_4.jpg" alt="Асансьорът пристига"><figcaption><b>21 до 26 сек</b>Асансьорът идва. Съседът маха за довиждане.</figcaption></figure>
+      </div>
+      <div class="endcard">Жителят плаща с карта. Домоуправителят вижда плащането. <small>LIVO · Софтуер за управление на сгради</small></div>
+    </div>
+    <p class="note">Кадрите са генерирани с AI като визуална посока за сторибордовете. Героите и локациите ще уточним при кастинга.</p>
+  </div>
+</section>
+
+<!-- IDEAS -->
+<section class="s" id="ideas">
+  <div class="wrap">
+    <div class="head">
+      <span class="eb">Допълнителни идеи за растеж</span>
+      <h2 class="mt-s">Шест механики, които работят и без рекламен бюджет</h2>
+    </div>
+    <div class="grid g3 mt" style="align-items:start">
+      <div class="card" style="padding:0;overflow:hidden"><div style="padding:28px"><div class="icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M16 14v4M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M8 18h.01M12 18h.01"/></svg></div><span class="n">01</span><h3>„Колко струва хаосът във вашия вход?“</h3><p>Калкулатор в сайта: брой апартаменти, как се събират таксите, колко събрания годишно. Резултатът е спестени часове и пари, а накрая стои заявка за LIVO.</p></div></div>
+      <div class="card" style="padding:0;overflow:hidden"><div style="padding:28px"><div class="icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h12M4 14h9M19 6a7.7 7.7 0 0 0-5.2-2A7.9 7.9 0 0 0 6 12c0 4.4 3.5 8 7.8 8 2 0 3.8-.8 5.2-2"/></svg></div><span class="n">02</span><h3>Касата в евро</h3><p>Кампания за преминаването към евро: чеклист за домоуправители, шаблон за отчет, демо как LIVO преизчислява таксите.</p></div></div>
+      <div class="card" style="padding:0;overflow:hidden"><div class="media" style="border-radius:0;aspect-ratio:16/10"><img loading="lazy" style="object-position:55% 25%" src="img/v/neighbors.jpg" alt=""></div><div style="padding:28px"><div class="icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg></div><span class="n">03</span><h3>Съседски истории</h3><p>Реални ситуации от потребители, разказани с хумор и завършени с практично решение. Материал за социалните мрежи и за PR.</p></div></div>
+      <div class="card" style="padding:0;overflow:hidden"><div style="padding:28px"><div class="icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></div><span class="n">04</span><h3>„Един вход. Едно приложение.“</h3><p>Ползите за всички поколения в сградата: от младите собственици до по-възрастните съседи, които получават известията в SMS.</p></div></div>
+      <div class="card" style="padding:0;overflow:hidden"><div class="media" style="border-radius:0;aspect-ratio:16/10"><img loading="lazy" style="object-position:50% 45%" src="img/v/demo.jpg" alt=""></div><div style="padding:28px"><div class="icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><span class="n">05</span><h3>LIVO Open Demo</h3><p>Онлайн демонстрация всеки месец за домоуправители и етажни собствености, с въпроси на живо и запис за YouTube.</p></div></div>
+      <div class="card" style="padding:0;overflow:hidden"><div style="padding:28px"><div class="icon"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg></div><span class="n">06</span><h3>Съседски посланици</h3><p>Активни потребители разказват за своя вход. Микроинфлуенсъри от реални сгради носят повече доверие от популярни лица.</p></div></div>
+    </div>
+  
+    <div class="split mt"><div class="media"><img loading="lazy" style="object-position:50% 45%" src="img/v/qr.jpg" alt="QR стикер на входната врата"></div><div><span class="eb">Офлайн към онлайн</span><h3 style="font-size:28px;margin-top:12px">Входът е рекламна площ, която вече имаме</h3><p class="lead" style="font-size:18px">Стикер с QR код на вратата на всяка сграда с LIVO води към приложението. Същият стикер в сграда без LIVO води към „Искам LIVO в моя вход“. Евтино, локално и измеримо по сграда.</p></div></div>
+  </div>
+</section>
+
+<!-- PLAN -->
+<section class="s soft" id="plan">
+  <div class="wrap">
+    <div class="head">
+      <span class="eb">План за изпълнение</span>
+      <h2 class="mt-s">Първите 90 дни</h2>
+      <p class="lead">Първо подреждаме основата, после пускаме кампаниите, накрая местим бюджета към това, което носи сгради.</p>
+    </div>
+    <div class="media wide"><img loading="lazy" style="object-position:50% 35%" src="img/v/team.jpg" alt="Екипът планира кампанията"></div>
+    <div class="gantt" role="img" aria-label="План по седмици за 90 дни"><div style="grid-row:1"></div><div class="mh">Месец 1 · Подготовка</div><div class="mh">Месец 2 · Кампании</div><div class="mh">Месец 3 · Оптимизация</div><div></div><div class="h">С1</div><div class="h">С2</div><div class="h">С3</div><div class="h">С4</div><div class="h">С5</div><div class="h">С6</div><div class="h">С7</div><div class="h">С8</div><div class="h">С9</div><div class="h">С10</div><div class="h">С11</div><div class="h">С12</div><div class="n" style="grid-row:3">Едно име и профили</div><div class="b d" style="grid-row:3;grid-column:2/5" data-tip="Едно име и профили: седмица 1 до 3"></div><div class="n" style="grid-row:4">Сайт: „Искам LIVO в моя вход“</div><div class="b " style="grid-row:4;grid-column:2/6" data-tip="Сайт: „Искам LIVO в моя вход“: седмица 1 до 4"></div><div class="n" style="grid-row:5">Проследяване и CRM</div><div class="b d" style="grid-row:5;grid-column:3/6" data-tip="Проследяване и CRM: седмица 2 до 4"></div><div class="n" style="grid-row:6">Сценарии, кастинг, снимки</div><div class="b s" style="grid-row:6;grid-column:3/8" data-tip="Сценарии, кастинг, снимки: седмица 2 до 6"></div><div class="n" style="grid-row:7">Имейл към фирми и строители</div><div class="b " style="grid-row:7;grid-column:5/14" data-tip="Имейл към фирми и строители: седмица 4 до 12"></div><div class="n" style="grid-row:8">Meta и Google кампании</div><div class="b " style="grid-row:8;grid-column:6/14" data-tip="Meta и Google кампании: седмица 5 до 12"></div><div class="n" style="grid-row:9">Видеа „Бай Иван“ и скечове</div><div class="b s" style="grid-row:9;grid-column:7/14" data-tip="Видеа „Бай Иван“ и скечове: седмица 6 до 12"></div><div class="n" style="grid-row:10">Активиране в настоящите сгради</div><div class="b " style="grid-row:10;grid-column:7/12" data-tip="Активиране в настоящите сгради: седмица 6 до 10"></div><div class="n" style="grid-row:11">Реферална програма</div><div class="b " style="grid-row:11;grid-column:8/14" data-tip="Реферална програма: седмица 7 до 12"></div><div class="n" style="grid-row:12">Партньори и PR</div><div class="b d" style="grid-row:12;grid-column:8/14" data-tip="Партньори и PR: седмица 7 до 12"></div><div class="n" style="grid-row:13">Пилот извън София</div><div class="b " style="grid-row:13;grid-column:11/14" data-tip="Пилот извън София: седмица 10 до 12"></div><div class="n" style="grid-row:14">Анализ и преразпределяне</div><div class="b d" style="grid-row:14;grid-column:5/6" data-tip="Анализ и преразпределяне: седмица 4"></div><div class="b d" style="grid-row:14;grid-column:9/10" data-tip="Анализ и преразпределяне: седмица 8"></div><div class="b d" style="grid-row:14;grid-column:13/14" data-tip="Анализ и преразпределяне: седмица 12"></div></div><div class="legend"><span><i class="lv h" style="border-radius:4px"></i>Кампании и съдържание</span><span><i class="lv" style="background:var(--sun);border-color:var(--sun);border-radius:4px"></i>Видео продукция</span><span><i class="lv" style="background:var(--violet);border-color:var(--violet);border-radius:4px"></i>Основа и анализ</span></div>
+    <div class="tl">
+      <div class="card"><span class="m">Месец 1</span><h3>Подготовка</h3><ul class="l">
+        <li>Анализ на базата: сгради, домакинства, активни ползватели.</li>
+        <li>Едно име в магазините, Facebook, Instagram и TikTok.</li>
+        <li>Страница „Искам LIVO в моя вход“ и връзка с CRM.</li>
+        <li>Pixel, Conversions API, офлайн конверсии в Google.</li>
+        <li>Процес за заявките: кой, до кога, с какъв скрипт.</li>
+        <li>Сценарии, кастинг и снимки на първите видеа.</li>
+        <li>Първите имейл поредици към фирмите.</li>
+      </ul></div>
+      <div class="card"><span class="m">Месец 2</span><h3>Активни кампании</h3><ul class="l">
+        <li>Старт на Meta и Google с новите цели.</li>
+        <li>Първите видеа от поредицата „Бай Иван“.</li>
+        <li>Имейл кампанията към фирми и строители.</li>
+        <li>Кампания за активиране в настоящите сгради.</li>
+        <li>Тест на рефералната програма.</li>
+        <li>Първи срещи с партньори и PR материал.</li>
+      </ul></div>
+      <div class="card"><span class="m">Месец 3</span><h3>Оптимизация</h3><ul class="l">
+        <li>Анализ по канал: цена на включена сграда.</li>
+        <li>Бюджетът отива към най-ефективните канали.</li>
+        <li>Разширяване на най-силните видеа и послания.</li>
+        <li>Пилот извън София.</li>
+        <li>Партньорска програма LIVO Benefits.</li>
+        <li>План за следващите три месеца с реални цифри.</li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- KPI -->
+<section class="s" id="kpi">
+  <div class="wrap">
+    <div class="head">
+      <span class="eb">Как мерим</span>
+      <h2 class="mt-s">Една главна цифра и пет помощни</h2>
+    </div>
+    <div class="north mt">
+      <div><span class="eb">North Star</span><h3 class="mt-s">Активни домакинства в LIVO</h3><p style="margin-top:8px">Домакинства в сгради с LIVO, които са влезли в приложението или са платили през него през последните 30 дни.</p></div>
+      <div class="big">62k →</div>
+    </div>
+    <div class="tree">
+      <div class="tree-l3 lvl l3">
+        <div class="node"><b>Нови сгради</b><span>Колко сгради влизат в LIVO</span><ul><li>Заявки с адрес</li><li>Демота</li><li>% заявка → сграда</li><li>Цена на включена сграда</li></ul></div>
+        <div class="node"><b>Домакинства на сграда</b><span>Колко домакинства носи всяка нова сграда</span><ul><li>Фирми с много сгради</li><li>Нови комплекси от строители</li><li>Среден брой апартаменти</li></ul></div>
+        <div class="node"><b>Активиране</b><span>Колко от тях реално ползват LIVO</span><ul><li>Свалено приложение</li><li>Плащания с карта</li><li>Подадени сигнали и гласувания</li></ul></div>
+      </div>
+    </div>
+    <div class="mini">
+      <div><b>Заявки с адрес</b><span>„Искам LIVO“ и демо заявки, по канал</span></div>
+      <div><b>Конверсия заявка → сграда</b><span>Колко от заявките стават включени сгради</span></div>
+      <div><b>Цена на включена сграда</b><span>Бюджет по канал / нови сгради</span></div>
+      <div><b>Дял плащания с карта</b><span>Активиране в настоящите сгради</span></div>
+      <div><b>Нови сгради и домакинства</b><span>Месечно, по тип клиент</span></div>
+      <div><b>Имейл</b><span>Отговори и записани демота</span></div>
+      <div><b>Реферали и партньори</b><span>Сгради от препоръки</span></div>
+      <div><b>Социални мрежи</b><span>Гледания, споделяния, ръст на профилите</span></div>
+    </div>
+    <div class="grid g2 mt">
+      <div class="card"><span class="n">КАКВО НИ ТРЯБВА ОТ LIVO</span><h3>Данни за точни цели</h3><ul class="l">
+        <li>Сгради и домакинства по месеци и по тип клиент.</li>
+        <li>Активни ползватели на приложението и дял плащания с карта.</li>
+        <li>Текущата Meta кампания: аудитории, визии, бюджети, резултати.</li>
+        <li>Процесът на продажба и внедряване: стъпки, срокове, кой отговаря.</li>
+        <li>Среден брой домакинства на нов клиент и средна стойност на клиент.</li>
+        <li>Колко клиенти са напуснали и защо.</li>
+      </ul></div>
+      <div class="card"><span class="n">БЮДЖЕТ</span><h3>Определяме го след анализа</h3><p style="margin-top:10px">Конкретните цели и рекламните бюджети ще предложим след първите две седмици, когато видим текущите показатели и цената на една включена сграда. Лятото показа, че 3 560 € носят трафик. Сега ще ги насочим към сгради.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- END -->
+<section class="end">
+  <div class="wrap">
+    <img src="img/logo_white.svg" alt="LIVO">
+    <h2>LIVO вече работи.<br>Сега повече входове трябва да го поискат.</h2>
+    <p>Разпознаваем бранд, търсене от живущите и мрежа от препоръки и партньори. Трите заедно правят растежа устойчив.</p>
+    <div style="margin-top:32px"><a class="btn" href="#top" style="background:var(--sun);color:var(--ink)">Обратно в началото</a></div>
+  </div>
+</section>
+<footer>Moshe Agency · info@studiomoshe.com · +359 893 71 66 28 · гр. София, ул. Тодор Каблешков 53 · Предложение за LIVO · ноември 2026</footer>
+
+<div id="tip" role="tooltip"></div>
+<script>
+const tip=document.getElementById('tip');document.addEventListener('mousemove',e=>{const t=e.target.closest('[data-tip]');if(!t){tip.style.opacity=0;return}tip.textContent=t.dataset.tip;tip.style.opacity=1;const x=Math.min(e.clientX+14,innerWidth-tip.offsetWidth-8);tip.style.left=x+'px';tip.style.top=(e.clientY+16)+'px'});
+const prog=document.getElementById('prog'),links=[...document.querySelectorAll('#links a')],secs=links.map(a=>document.querySelector(a.getAttribute('href')));
+function track(){const max=document.documentElement.scrollHeight-innerHeight;prog.style.width=(max>0?scrollY/max*100:0)+'%';let c=-1;secs.forEach((s,i)=>{if(s&&s.getBoundingClientRect().top<=120)c=i});links.forEach((a,i)=>a.classList.toggle('on',i===c));if(c>=0){const a=links[c],p=a.parentElement;p.scrollTo({left:a.offsetLeft-p.clientWidth/2+a.clientWidth/2,behavior:'smooth'})}}
+addEventListener('scroll',track,{passive:true});track();
+const intro=document.getElementById('intro');
+let openIntro=function(){intro.classList.remove('hide');document.body.classList.add('locked')}
+function closeIntro(id){intro.classList.add('hide');document.body.classList.remove('locked');if(id){const el=document.getElementById(id);if(el){document.documentElement.style.scrollBehavior='auto';window.scrollTo(0,el.getBoundingClientRect().top+scrollY-76);document.documentElement.style.scrollBehavior='';history.replaceState(null,'','#'+id)}}}
+intro.querySelectorAll('[data-go]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();closeIntro(a.dataset.go)}));
+document.getElementById('inAll').onclick=()=>{closeIntro();window.scrollTo(0,0)};
+document.getElementById('inClose').onclick=()=>closeIntro();
+document.getElementById('openTopics').onclick=()=>openIntro();
+addEventListener('keydown',e=>{if(e.key==='Escape')closeIntro()});
+if(location.hash&&location.hash.length>1)closeIntro();else document.body.classList.add('locked');
+const glow=document.getElementById('inGlow');intro.addEventListener('mousemove',e=>{glow.style.left=e.clientX+'px';glow.style.top=e.clientY+'px'});
+intro.querySelectorAll('.tile').forEach(t=>t.addEventListener('animationend',()=>{t.style.animation='none'}));
+function countUp(){intro.querySelectorAll('[data-count]').forEach(el=>{const n=+el.dataset.count,t0=performance.now();const f=now=>{const k=Math.min(1,(now-t0)/1400),v=Math.round(n*(1-Math.pow(1-k,3)));el.textContent=v.toLocaleString('bg-BG');if(k<1)requestAnimationFrame(f)};requestAnimationFrame(f)})}
+const _open=openIntro;openIntro=function(){intro.querySelectorAll('.tile').forEach(t=>{t.style.animation='none';void t.offsetWidth;t.style.animation=''});_open();countUp()};
+if(!intro.classList.contains('hide'))countUp();
+
+
+</script>
+</body>
+</html>
